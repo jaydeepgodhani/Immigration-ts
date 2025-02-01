@@ -25,7 +25,7 @@ const InitialEngagement = () => {
                 </select>
               </div>
 
-              <button className='w-1/3 flex items-center justify-center h-full text-xl bg-blue-500 ml-2'>
+              <button className='w-1/3 flex items-center justify-center h-full text-xl bg-sky-700 ml-2 text-white'>
                 Check Requirements
               </button>
 
