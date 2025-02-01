@@ -4,6 +4,7 @@ import Input from "@/Components/Input.tsx";
 import {useState} from "react";
 import MenuOptions from "@/MenuOptions.tsx";
 import InitialEngagement from "@/InitialEngagement.tsx";
+import Searchbar from "@/Components/Searchbar.tsx";
 
 const Navbar = () => {
 
@@ -14,8 +15,8 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-center items-center relative flex-col'>
-      <div className='flex items-center justify-center w-full bg-sky-700 text-white sticky top-0 z-10'>
+    <>
+      <div className='flex items-center justify-center w-full bg-sky-700 text-white sticky top-0 z-10  flex-col'>
         <div className='w-3/4 flex py-4 justify-between'>
           <span className='w-1/3 justify-start'>LOGO</span>
           <ul className='flex items-center w-1/5 justify-end'>
@@ -33,20 +34,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>}
-
-      <div className='flex items-center justify-center w-full border-b-2 border-b-gray-100'>
-        <div className='w-3/4 flex py-2'>
-          <ul className='flex w-full py-2 items-center font-bold'>
-            <li className='pr-8'>Visas</li>
-            <li className='px-8'>Passports</li>
-            <li className='px-8'>Contact</li>
-          </ul>
-          <div className='w-1/3 flex items-center'><Input placeholder='Search Anything'/></div>
-        </div>
-
-      </div>
-      <InitialEngagement />
-    </div>
+    </>
   )
 }
 
