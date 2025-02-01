@@ -3,6 +3,7 @@ import {HiOutlineMenu} from "react-icons/hi";
 import Input from "@/Components/Input.tsx";
 import {useState} from "react";
 import MenuOptions from "@/MenuOptions.tsx";
+import InitialEngagement from "@/InitialEngagement.tsx";
 
 const Navbar = () => {
 
@@ -44,6 +45,7 @@ const Navbar = () => {
         </div>
 
       </div>
+      <InitialEngagement />
     </div>
   )
 }

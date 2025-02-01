@@ -8,7 +8,6 @@ const Homepage = () => {
   return (
       <div className='w-full'>
         <Navbar />
-        <InitialEngagement />
         <Reviews />
         <ViewAllVisa />
         <Footer />
