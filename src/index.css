@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('/fonts/open-sans-regular.woff2') format('woff2'),
+  url('/fonts/open-sans-regular.woff') format('woff');
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -63,4 +73,5 @@
   body {
     @apply bg-background text-foreground;
   }
+
 }
