@@ -1,11 +1,11 @@
 const InitialEngagement = () => {
   return (
       <div className='h-auto w-full flex justify-center items-center'>
-        <div className='h-auto w-full m-4 items-center justify-center flex flex-col bg-amber-200 p-4'>
-          <h1 className='text-2xl font-bold m-2'>Travel Visa Requirement</h1>
+        <div className='h-auto w-full m-4 items-center justify-center flex flex-col p-4'>
+          <h1 className='text-2xl font-bold m-2 mt-20'>Travel Visa Requirement</h1>
           <span>Sometimes a journey of a thousand miles begins with a visa.</span>
           <span>Check your destination and apply online for any visa in the world.</span>
-          <div className='w-1/2 flex items-center justify-center flex-col bg-amber-700 mt-4'>
+          <div className='w-1/2 flex items-center justify-center flex-col mt-4'>
             <div className='w-full flex items-center justify-center h-[70px]'>
 
               <div className='w-1/3 flex items-center justify-between flex-col h-full'>
@@ -25,8 +25,8 @@ const InitialEngagement = () => {
                 </select>
               </div>
 
-              <button className='w-1/3 flex items-center justify-center h-full text-xl'>Check
-                Requirements
+              <button className='w-1/3 flex items-center justify-center h-full text-xl bg-blue-500 ml-2'>
+                Check Requirements
               </button>
 
             </div>
