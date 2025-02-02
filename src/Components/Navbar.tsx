@@ -13,24 +13,28 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='flex items-center justify-center w-full bg-sky-700 text-white sticky top-0 z-10 flex-col'>
-        <div className='w-3/4 flex py-4 justify-between'>
+      <div className='flex items-center justify-center w-full bg-sky-700 sticky top-0 flex-col'>
+        <div className='w-3/4 flex py-4 justify-between text-white'>
           <span className='w-1/3 justify-start'>LOGO</span>
           <ul className='flex items-center w-1/5 justify-end'>
-            <li className='px-4'>English</li>
-            <li className='px-4'>Sign In</li>
-            <li className='pl-4 cursor-pointer text-2xl' onClick={openMenu}>{menuIsOpened ? <RxCross2/> :
+            <li>
+              <button className='px-4 py-1 hover:text-black hover:bg-white hover:outline-2'>English</button>
+            </li>
+            <li>
+              <button className='px-4 py-1 hover:text-black hover:bg-white hover:outline-2'>Sign In</button>
+            </li>
+            <li className='ml-4 cursor-pointer text-2xl' onClick={openMenu}>{menuIsOpened ? <RxCross2/> :
               <HiOutlineMenu/>}</li>
           </ul>
         </div>
+
+        {menuIsOpened && <div className='w-full flex bg-gray-100 p-6 justify-center absolute top-full z-0'>
+            <div className='w-1/2'>
+                <MenuOptions/>
+            </div>
+        </div>}
       </div>
-      {menuIsOpened && <div className='w-full flex bg-gray-100 p-6 justify-center absolute top-0 z-0'>
-        <div className='w-3/4 justify-center flex'>
-          <div className='w-1/2'>
-            <MenuOptions/>
-          </div>
-        </div>
-      </div>}
+
     </>
   )
 }
