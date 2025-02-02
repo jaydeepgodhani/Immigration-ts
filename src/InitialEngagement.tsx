@@ -2,11 +2,11 @@ const InitialEngagement = () => {
   return (
     <div
       className="w-full flex items-center justify-center bg-gradient-to-r to-sky-700 from-10% via-sky-500 via-30% from-emerald-500 to-90%">
-      <div className='h-auto w-3/4 flex flex-col mb-16'>
+      <div className='h-auto flex flex-col mb-16 md:w-3/4'>
         <h1 className='text-3xl font-bold mt-20 font-heading mb-6'>Travel Visa Requirement</h1>
         <span>Sometimes a journey of a thousand miles begins with a visa.</span>
         <span>Check your destination and apply online for any visa in the world.</span>
-        <div className='w-1/2 flex items-center justify-center flex-col mt-4'>
+        <div className='xl:w-1/2 md:w-full flex items-center justify-center flex-col mt-4'>
           <div className='w-full flex items-center justify-center h-[70px]'>
 
             <div className='w-1/3 flex items-center justify-between flex-col h-full'>

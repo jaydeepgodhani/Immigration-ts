@@ -14,9 +14,9 @@ const Navbar = () => {
   return (
     <>
       <div className='flex items-center justify-center w-full bg-sky-700 sticky top-0 flex-col'>
-        <div className='w-3/4 flex py-4 justify-between text-white'>
-          <span className='w-1/3 justify-start'>LOGO</span>
-          <ul className='flex items-center w-1/5 justify-end'>
+        <div className='flex py-4 justify-between text-white md:w-3/4'>
+          <span className='justify-start xl:w-1/3 md:w-1/2'>LOGO</span>
+          <ul className='flex items-center justify-end xl:w-1/5 md:w-1/2'>
             <li>
               <button className='px-4 py-1 hover:text-black hover:bg-white hover:outline-2 transition-all duration-500 ease-in-out'>English</button>
             </li>
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         {menuIsOpened && <div className='w-full flex bg-gray-100 p-6 justify-center absolute top-full z-0 animate-fade shadow-xl'>
-            <div className='w-1/2'>
+            <div className='xl:w-1/2 md:w-3/4'>
                 <MenuOptions/>
             </div>
         </div>}

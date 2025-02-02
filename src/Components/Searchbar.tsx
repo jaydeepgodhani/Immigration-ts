@@ -10,7 +10,7 @@ const Searchbar = () => {
             <li className='mr-8 border-b-2 border-transparent hover:border-b-sky-700 hover:text-sky-700 transition-all duration-300 ease-in-out'><a href='https://localhost'>Passports</a></li>
             <li className='mr-8 border-b-2 border-transparent hover:border-b-sky-700 hover:text-sky-700 transition-all duration-300 ease-in-out'><a href='https://localhost'>Contact</a></li>
           </ul>
-          <div className='w-1/3 flex items-center'><Input placeholder='Search Anything'/></div>
+          <div className='flex items-center xl:w-1/3 md:w-1/2'><Input placeholder='Search Anything'/></div>
         </div>
       </div>
   )
