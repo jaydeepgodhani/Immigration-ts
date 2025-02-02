@@ -2,9 +2,9 @@ import Card from "@/Components/Card.tsx";
 
 const ViewAllVisa = () => {
   return (
-    <div className='h-auto w-full flex justify-center items-center my-4'>
+    <div className='h-auto w-full flex justify-center items-center my-8'>
       <div className='w-3/4'>
-        <h1 className='text-2xl font-bold my-2'>All services</h1>
+        <h1 className='text-3xl font-bold my-2 font-heading mb-6'>All services</h1>
         <div className='h-auto grid grid-cols-3 gap-4'>
           <Card header={'Test test'} desc={'test test ??? long test and long text... lets see how it performs'}/>
           <Card header={'Test jaydeep'} desc={'test test ??? long test and long text... lets see how it performs'}/>

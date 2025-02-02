@@ -7,12 +7,16 @@ module.exports = {
             sans: ['IBM Plex Sans', '-apple-system'],
             serif: ['IBM Plex Sans', 'serif'],
             mono: ['monospace'],
+            heading: ['Merriweather'],
         },
         extend: {
             borderRadius: {
                 lg: 'var(--radius)',
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)'
+            },
+            animation: {
+                fade: "fadeIn 1s ease-in-out forwards",
             },
             colors: {
                 background: 'hsl(var(--background))',

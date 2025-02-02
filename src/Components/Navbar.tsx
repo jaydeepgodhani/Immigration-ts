@@ -18,17 +18,17 @@ const Navbar = () => {
           <span className='w-1/3 justify-start'>LOGO</span>
           <ul className='flex items-center w-1/5 justify-end'>
             <li>
-              <button className='px-4 py-1 hover:text-black hover:bg-white hover:outline-2'>English</button>
+              <button className='px-4 py-1 hover:text-black hover:bg-white hover:outline-2 transition-all duration-500 ease-in-out'>English</button>
             </li>
             <li>
-              <button className='px-4 py-1 hover:text-black hover:bg-white hover:outline-2'>Sign In</button>
+              <button className='px-4 py-1 hover:text-black hover:bg-white hover:outline-2 transition-all duration-500 ease-in-out'>Sign In</button>
             </li>
             <li className='ml-4 cursor-pointer text-2xl' onClick={openMenu}>{menuIsOpened ? <RxCross2/> :
               <HiOutlineMenu/>}</li>
           </ul>
         </div>
 
-        {menuIsOpened && <div className='w-full flex bg-gray-100 p-6 justify-center absolute top-full z-0'>
+        {menuIsOpened && <div className='w-full flex bg-gray-100 p-6 justify-center absolute top-full z-0 animate-fade shadow-xl'>
             <div className='w-1/2'>
                 <MenuOptions/>
             </div>
