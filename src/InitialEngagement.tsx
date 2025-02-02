@@ -2,36 +2,38 @@ const InitialEngagement = () => {
   return (
     <div
       className="w-full flex items-center justify-center bg-gradient-to-r to-sky-700 from-10% via-sky-500 via-30% from-emerald-500 to-90%">
-      <div className='h-auto flex flex-col mb-16 md:w-3/4'>
+      <div className='h-auto flex flex-col mb-16 md:w-3/4 w-11/12'>
         <h1 className='text-3xl font-bold mt-20 font-heading mb-6'>Travel Visa Requirement</h1>
         <span>Sometimes a journey of a thousand miles begins with a visa.</span>
         <span>Check your destination and apply online for any visa in the world.</span>
         <div className='xl:w-1/2 md:w-full flex items-center justify-center flex-col mt-4'>
-          <div className='w-full flex items-center justify-center h-[70px]'>
+          <div className='w-full flex items-center justify-center h-max md:flex-row flex-col'>
 
-            <div className='w-1/3 flex items-center justify-between flex-col h-full'>
-              <div className='w-full'>For citizens of</div>
-              <select className='w-full h-[40px]'>
-                <option value={1}>1</option>
-                <option value={2}>2</option>
-                <option value={3}>3</option>
-              </select>
+            <div className='md:w-2/3 w-full flex flex-row'>
+              <div className='w-1/2 flex items-center justify-between flex-col md:h-full'>
+                <div className='w-full'>For citizens of</div>
+                <select className='w-full md:h-max h-auto'>
+                  <option value={1}>1</option>
+                  <option value={2}>2</option>
+                  <option value={3}>3</option>
+                </select>
+              </div>
+              <div className='flex w-1/2 items-center justify-between flex-col md:h-full'>
+                <div className='w-full'>Travelling to</div>
+                <select className='w-full md:h-max h-auto'>
+                  <option value={1}>1</option>
+                  <option value={2}>2</option>
+                  <option value={3}>3</option>
+                </select>
+              </div>
             </div>
-            <div className='flex w-1/3 items-center justify-between flex-col h-full'>
-              <div className='w-full'>Travelling to</div>
-              <select className='w-full h-[40px] '>
-                <option value={1}>1</option>
-                <option value={2}>2</option>
-                <option value={3}>3</option>
-              </select>
-            </div>
-
-            <button className='w-1/3 flex items-center justify-center h-full text-xl bg-sky-700 ml-2 text-white'>
+            <button className='md:w-1/3 w-full flex items-center justify-center h-max text-xl bg-sky-700 text-white'>
               Check Requirements
             </button>
 
           </div>
-          <div className='w-full h-[70px] flex items-center justify-center bg-sky-700/30'>Need help? Call us 7 days a week
+          <div className='w-full md:h-[70px] h-auto flex items-center justify-center bg-sky-700/30'>Need help? Call us 7
+            days a week
             +91-xxx-xxx-xxxx
           </div>
         </div>
