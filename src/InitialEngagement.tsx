@@ -1,7 +1,7 @@
 const InitialEngagement = () => {
   return (
     <div
-      className="w-full flex items-center justify-center bg-gradient-to-r to-white from-10%  from-sky-500 to-100%">
+      className="w-full flex items-center justify-center bg-gradient-to-r from-white from-10% to-primary to-100%">
       <div className='h-auto flex flex-col mb-16 md:w-3/4 w-11/12'>
         <h1 className='text-3xl font-bold mt-20 font-heading mb-6'>Travel Visa Requirement</h1>
         <span>Sometimes a journey of a thousand miles begins with a visa.</span>
@@ -27,12 +27,12 @@ const InitialEngagement = () => {
                 </select>
               </div>
             </div>
-            <button className='md:w-1/3 w-full flex items-center justify-center h-[50px] py-2 text-xl bg-sky-700 text-white'>
+            <button className='md:w-1/3 w-full flex items-center justify-center h-[50px] py-2 text-xl bg-primary text-white'>
               Check Requirements
             </button>
 
           </div>
-          <div className=' mt-6 w-full md:h-[70px] h-auto flex items-center justify-center bg-sky-700/30'>Need help? Call us 7
+          <div className=' mt-6 w-full md:h-[70px] h-auto flex items-center justify-center bg-primary/30'>Need help? Call us 7
             days a week
             +91-xxx-xxx-xxxx
           </div>

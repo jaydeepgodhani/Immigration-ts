@@ -1,7 +1,7 @@
 import Options from "@/Interfaces/Footer.tsx";
 import {useState} from "react";
 
-const optionClass = 'border-b-2 border-transparent hover:border-b-sky-700 hover:text-sky-700  transition-all duration-300 ease-in-out';
+const optionClass = 'border-b-2 border-transparent hover:border-b-primary hover:text-primary transition-all duration-300 ease-in-out';
 
 const MobileMenuOptions = () => {
 

@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='w-full bg-sky-200 flex items-center justify-center'>
+      <div className='w-full bg-secondary flex items-center justify-center'>
         <div className='md:py-6 py-4 flex justify-center xl:w-3/4 md:w-3/4'>
           <div className='flex justify-center xl:w-1/2 md:w-full md:flex-row flex-col'>
             <div className='md:w-[70%] w-full mb-4 md:mb-0'>&copy; Its our Immigration mf</div>

@@ -2,7 +2,7 @@ import {useMediaQuery} from 'react-responsive';
 import MobileMenuOptions from "@/MobileMenuOptions.tsx";
 import Options from "@/Interfaces/Footer.tsx";
 
-const optionClass = 'border-b-2 border-transparent hover:border-b-sky-700 hover:text-sky-700  transition-all duration-300 ease-in-out';
+const optionClass = 'border-b-2 border-transparent hover:border-b-primary hover:text-primary  transition-all duration-300 ease-in-out';
 
 const MenuOptions = () => {
   const isMobile: boolean = useMediaQuery({query: '(max-width: 767px)'});
